@@ -1,0 +1,98 @@
+/** Esto es un comentario para CSS */
+
+* {
+    box-sizing: border-box;
+}
+
+
+/** Media Query  (Diseño Responsivo según ancho de pantalla = distintos diseños) */
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightgrey;
+    }
+}
+
+
+
+
+
+p {
+    font-family: 'Roboto', sans-serif;
+    color: green;
+    width: 300px;
+}
+
+#tittle {
+    font-family: 'Roboto', sans-serif;
+    border: 7px solid blue;
+    margin: 50px;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    text-align: center;
+    font-weight: bold;
+    color: brown;
+
+}
+
+section {
+    font-size: medium;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+    text-align: justify;
+}
+
+h2 {
+    font-weight: bold;
+    color: blueviolet;
+}
+
+
+/** BOX MODEL 
+
+El modelo de caja nos permite agregar un borde alrededor de los elementos y definir el espacio. entre elementos.
+
+1. Contenido - El contenido de la caja, donde aparecen el texto y las imágenes (Ej: <div>...</div> )
+2. Padding - Borra un área alrededor del contenido. El relleno es transparente 
+3. Border: un borde que rodea el relleno y el contenido.
+4. Margin: despeja un área fuera de la frontera. El margen es transparente
+
+*/
+
+
+/** SELECTORES
+
+TODOS LOS ELEMENTOS
+* { (Aplica a todos los elementos del HTML)    
+}
+
+
+ID's
+id (Atributo único para un elemento para aplicar propiedades desde css)
+
+<p id="parraf">....</p> (Este parrafo tiene un ID para identificarlo unicamente a él)
+
+
+CLASES
+.class (aplicamos una clase con propiedades a los elementos HTML que tengan esa clase)
+
+HTML
+<p class="caja">----</p>
+<div class="caja">....</div>
+
+CSS
+.caja {
+    font-size: 30px;
+}
+
+SELECCION MÁS ESPECÍFICA
+
+section p {
+    color: red;
+}
+
+Seleccionamos todos los <p> que estén dentro de un <section>
+*/
