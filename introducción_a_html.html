@@ -43,15 +43,7 @@
     <!-- 3) >>>> External css file (RECOMENDADO) <<<<< -->
     <link rel="stylesheet" type="text/css" href="css/css styles.css" />
 
-     <!-- //////////// -->
-
-
-
-    <!-- Introducimos JAVASCRIPT al HTML -->
-
-
-
-
+    <!-- //////////// -->
 
 
 
@@ -74,19 +66,21 @@
 </head>
 
 <body>
-    <!--    
-        <h3 style="border: 1px solid blue;">CSS Inline en HTML ¡NOOO!</h3>     
-    -->
-
-
-    <!-- Introducimos JAVASCRIPT en el BODY -->
+    <!-- Introducimos JAVASCRIPT en el BODY (MALA PRÁCTICA / NO RECOMENDADO!!) 
     <script>
         console.log{"Hola Mundo"};
     </script>
+     ////// -->
 
+
+    <!-- Introducimos JAVASCRIPT desde un ARCHIVO JS (USAR ESTA FORMA) -->
+    <script src="js/function.js"></script>
     <!-- ////// -->
 
-    
+
+    <!--    
+        <h3 style="border: 1px solid blue;">CSS Inline en HTML ¡NOOO!</h3>     
+    -->
 
     <h1 id="tittle">Introducción al HTML</h1>
     <div class="container">
@@ -111,6 +105,19 @@
 
                 <h2>Parrafo</h2>
                 <p>Hola Mundo!!!</p>
+
+                <br>
+                <br>
+
+                <!-- JAVASCRIPT -->
+
+                <h2>JavaScript</h2>
+                
+                <p id="demo">Aprendiendo como JavaScript puede cambiar el contenido HTML.</p>
+
+                <button type="button" id="boton">¡Click acá!</button>
+
+                <!-- END -->
 
             </div>
 
@@ -144,6 +151,7 @@
                     <ul>
                         <li>Item 1</li>
                         <li>Item 2</li>
+
                         <li>Item 3</li>
                     </ul>
                 </div>
@@ -179,16 +187,16 @@
 
                     <form action="" method="post">
                         <label>Nombre</label>
-                        <input  type="text" name="nombre" placeholder="Igrese su Nombre" /><br>
+                        <input type="text" name="nombre" placeholder="Igrese su Nombre" /><br>
 
                         <label>Apellido</label>
-                        <input  type="text" name="apellido" placeholder="Ingrese su Apellido" /><br>
+                        <input type="text" name="apellido" placeholder="Ingrese su Apellido" /><br>
 
                         <label>E-mail</label>
-                        <input  type="email" name="email" placeholder="Ingrese su E-mail" required /><br>
+                        <input type="email" name="email" placeholder="Ingrese su E-mail" required /><br>
 
                         <label>Password</label>
-                        <input  type="password" name="password" required /><br>
+                        <input type="password" name="password" required /><br>
                         <input type="submit" value="Enviar" />
 
                     </form>
