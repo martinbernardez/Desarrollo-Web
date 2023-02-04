@@ -41,7 +41,7 @@
      -->
 
     <!-- 3) >>>> External css file (RECOMENDADO) <<<<< -->
-    <link rel="stylesheet" type="text/css" href="css/css styles.css" />
+    <link rel="stylesheet" type="text/css" href="css/css-styles.css" />
 
     <!-- //////////// -->
 
@@ -73,9 +73,9 @@
      ////// -->
 
 
-    <!-- Introducimos JAVASCRIPT desde un ARCHIVO JS (USAR ESTA FORMA) -->
+    <!-- Introducimos JAVASCRIPT desde un ARCHIVO JS (USAR ESTA FORMA) 
     <script src="js/function.js"></script>
-    <!-- ////// -->
+    ////// -->
 
 
     <!--    
@@ -94,6 +94,12 @@
                 <h4>Título 4</h4>
                 <h5>Título 5</h5>
                 <h6>Título 6</h6>
+                <br>
+                <br>
+                <h2>Parrafo</h2>
+                <p>Hola Mundo!!!</p>
+
+                <br>
 
             </div>
 
@@ -103,19 +109,45 @@
             <div class="col">
 
 
-                <h2>Parrafo</h2>
-                <p>Hola Mundo!!!</p>
-
-                <br>
-                <br>
+                
+                
 
                 <!-- JAVASCRIPT -->
 
                 <h2>JavaScript</h2>
-                
-                <p id="demo">Aprendiendo como JavaScript puede cambiar el contenido HTML.</p>
+
+                <p id="demo">Aprendiendo como JavaScript cambia el HTML.</p>
 
                 <button type="button" id="boton">¡Click acá!</button>
+
+                <button type="button" id="boton_color">Cambiar color</button>
+
+                <button type="button" id="boton_default">Reestablecer color</button>
+
+                <script src="js/function.js"></script>
+                <br>
+                <br>
+
+                <h3>JavaScript Form</h3>
+                <br>
+
+                <form>
+                    <label>Numero1
+                        <input type="number" id="numero1" required></label>
+                    </label>
+                    <label>Numero2
+                        <input type="number" id="numero2" required></label>
+                    </label>
+                    <br><br>
+                    <button type="button" id="sumar">Realizar suma</button>
+                </form>
+
+
+                <div id="contenedorResultado" style="display: none;">
+                    El resultado de la suma es: <p id="resultado"></p>
+                </div>
+
+                <script src="js/function.js"></script>
 
                 <!-- END -->
 
@@ -151,7 +183,6 @@
                     <ul>
                         <li>Item 1</li>
                         <li>Item 2</li>
-
                         <li>Item 3</li>
                     </ul>
                 </div>

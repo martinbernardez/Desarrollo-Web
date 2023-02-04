@@ -1,33 +1,45 @@
 /** Esto es un comentario para CSS */
 
+
 * {
     box-sizing: border-box;
 }
 
 
 /** Media Query  (Diseño Responsivo según ancho de pantalla = distintos diseños) */
-
+/**
 @media only screen and (max-width: 600px) {
     body {
-        background-color: lightgrey;
+        background-color: lightblue;
     }
 }
 
+body {
+    background-color: coral;
+}
+*/
 
+html {
+    background-color: #d3d3d3;
+}
 
-
+.container {
+    background-color: rgb(255, 236, 212);
+}
 
 p {
     font-family: 'Roboto', sans-serif;
-    color: green;
+    color: white;
     width: 300px;
+    background-color: rgb(76, 106, 131);
 }
 
 #tittle {
+    background-color: rgb(255, 231, 250);
     font-family: 'Roboto', sans-serif;
     border: 7px solid blue;
-    margin: 50px;
-    padding-top: 20px;
+    margin: 20px;
+    padding-top: 10px;
     padding-right: 30px;
     padding-bottom: 10px;
     padding-left: 50px;
@@ -38,11 +50,21 @@ p {
 }
 
 section {
+    background-color: navajowhite;
     font-size: medium;
     border: 15px solid green;
     padding: 50px;
     margin: 20px;
     text-align: justify;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0px;
 }
 
 h2 {
