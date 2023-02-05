@@ -28,7 +28,7 @@ document.getElementById('boton_default').addEventListener('click', function myfu
 
 
 
-/*FORMULARIO */
+/* FORMULARIO */
 
 document.getElementById('sumar').addEventListener('click', function () {
     let numeroA = document.getElementById('numero1').value;
